@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <section class="container">
+            <div class="side">
+                <div class="searchCity">
+                    <div class="search_icon">
+                        <img src="image/search.svg" alt="Search Icon" style="width: 25px;">
+                    </div>
+                    <input class="input" type="text" placeholder="search your city">
+                    <button class="searchButton">Search</button>
+                </div>
+            </div>
+            <div class="cityName">pune</div>
+            <div class="dateTime">2345</div>
+            <div class="weather_status">clearcl</div>
+            <div class="weather_icon"></div>
+            <div class="weather_temp">280&#176</div>
+            <div class="temperature">
+                <div class="min_temp">min : 23c</div>
+                <div class="max_temp">max : 23c</div>
+            </div>
+            <p class="error-message"></p>
+
+            <section class="info">
+                <div class="humid_feelsLike">
+                    <div class="feelslike">
+                        <div class="icon"><img src="image/temp.svg" alt="Temperature Icon"></div>
+                        <div>
+                            <p>feels like</p>
+                            <p class="feel">273</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <div class="icon"><img src="image/wind.svg" alt="Wind Icon"></div>
+                        <div>
+                            <p>wind</p>
+                            <p class="windss">273</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wind_pressure">
+                    <div class="humid">
+                        <div class="icon"><img src="image/humidity.svg" alt="Humidity Icon"></div>
+                        <div>
+                            <p>humidity</p>
+                            <p class="humidd">273</p>
+                        </div>
+                    </div>
+                    <div class="pressure">
+                        <div class="icon"><img src="image/pressure.svg" alt="Pressure Icon"></div>
+                        <div>
+                            <p>pressure</p>
+                            <p class="press">273</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
